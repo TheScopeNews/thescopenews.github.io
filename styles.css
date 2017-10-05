@@ -2,6 +2,10 @@ html{
   font-family: Helvetica;
 }
 
+* {
+    margin:0;
+}
+
 div.titleContainer{
   font-family: Helvetica;
   /*font-size: 25px;*/
