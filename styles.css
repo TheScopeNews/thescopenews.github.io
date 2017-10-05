@@ -2,12 +2,6 @@ html{
   font-family: Helvetica;
 }
 
-.titleContainer h1:after{
-  content: url(./logo.png);
-  width: 10px;
-  height: 10px;
-}
-
 * {
     margin:0;
 }
