@@ -46,6 +46,8 @@ div.navBar a{
   margin: 0;
   width: 10%;
   align: right;
+  text-decoration: none;
+  font-style: normal;
 }
 
 div.navBar a p{
