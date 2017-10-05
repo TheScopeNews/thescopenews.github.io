@@ -3,7 +3,7 @@ html{
 }
 
 .titleContainer h1:after{
-  content: url(./image.png);
+  content: url(./logo.png);
   width: 10px;
   height: 10px;
 }
