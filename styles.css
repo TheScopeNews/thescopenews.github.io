@@ -10,8 +10,36 @@ div.titleContainer{
   border-top-style: solid;
   border-top-color: #004ba0;
   border-top-width: 10px;
+  margin: 0px;
 }
+
 div.titleContainer h1{
+  /*margin: 0px;*/
   color: #ffffff;
   font-weight: 100;
+}
+
+div.navBar{
+  padding: 0px 0px 0px 0px;
+  background-color: #1976d2;
+  color: #1976d2;
+  text-decoration: none;
+  margin: 0px
+}
+
+div.navBar a{
+  display: block;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 25%;
+}
+
+div.navBar a p{
+  margin: 10px;
+  color: #ffffff;
+  font-style: normal;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: none;
 }
