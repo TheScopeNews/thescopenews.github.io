@@ -28,14 +28,17 @@ div.navBar{
   color: #1976d2;
   text-decoration: none;
   margin: 0;
+  text-align: center;
+  text-indent: 75px;
 }
 
 div.navBar a{
+  float: left;
   display: block;
   list-style-type: none;
   padding: 0px;
   margin: 0;
-  width: 25%;
+  width: 15%;
 }
 
 div.navBar a p{
