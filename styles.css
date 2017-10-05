@@ -1,10 +1,10 @@
 
 div.titleContainer{
-  font-family: sans-serif;
+  font-family: Helvetica;
   /*font-size: 25px;*/
   background-color: #1976d2;
   width: 100%;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 5px 20px;
   margin-top: 0px;
   text-align: left;
   border-top-style: solid;
@@ -39,7 +39,7 @@ div.navBar a p{
   margin: 10px;
   color: #ffffff;
   font-style: normal;
-  font-family: sans-serif;
+  font-family: Helvetica;
   text-decoration: none;
   text-transform: none;
 }
