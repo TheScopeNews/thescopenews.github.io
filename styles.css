@@ -28,7 +28,7 @@ div.navBar{
   color: #1976d2;
   text-decoration: none;
   margin: 0;
-  text-align: center;
+  align: center;
 }
 
 div.navBar a{
