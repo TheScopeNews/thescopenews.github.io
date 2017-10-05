@@ -1,1 +1,12 @@
-
+div.titleContainer{
+  font-family: sans-serif;
+  font-size: 25px;
+  background-color: #1976d2;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
+  text-align: left;
+  border-top-style: solid;
+  border-top-color: #004ba0;
+  border-top-width: 10px;
+}
