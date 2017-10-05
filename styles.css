@@ -50,6 +50,10 @@ div.navBar a{
   font-style: normal;
 }
 
+div.navBar a:hover{
+  text-decoration: underline;
+}
+
 div.navBar a p{
   color: #ffffff;
   font-style: normal;
