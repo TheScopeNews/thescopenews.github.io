@@ -2,6 +2,12 @@ html{
   font-family: Helvetica;
 }
 
+.titleContainer h1:after{
+  content: url(./image.png);
+  width: 10px;
+  height: 10px;
+}
+
 * {
     margin:0;
 }
@@ -23,6 +29,7 @@ div.titleContainer h1{
   /*margin: 0px;*/
   color: #ffffff;
   font-weight: 100;
+  width: 80%;
 }
 
 div.navBar{
