@@ -9,56 +9,41 @@ html{
 
 div.titleContainer{
   font-family: Helvetica;
-  /*font-size: 25px;*/
   background-color: #1976d2;
-  width: 100%;
-  padding: 20px 20px 25px 40px;
+  padding: 20px 20px 40px 40px;
   text-align: left;
   border-top-style: solid;
   border-top-color: #004ba0;
   border-top-width: 10px;
   margin:0;
   box-shadow: 0px 0px 10px 10px #292929;
-}
-
-div.titleContainer{
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 100;
   width: 100%;
-  margin:0;
+}
+
+h1.titleText{
+  padding-left: 10;
 }
 
 div.navBar{
   width: 100%;
   float: right;
-  padding: 20px 0px 10px 0px;
-  background-color: #1976d2;
   color: #1976d2;
   text-decoration: none;
-  margin: 0;
 }
 
 div.navBar a{
-  display: block;
   float: left;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0;
-  width: 10%;
-  align: right;
+  width: 5%;
   text-decoration: none;
-  font-style: normal;
 }
 
 div.navBar a:hover{
   text-decoration: underline;
+  text-decoration-color: #FFFFFF;
 }
 
 div.navBar a p{
-  color: #ffffff;
-  font-style: normal;
-  font-family: Helvetica;
-  text-decoration: none;
-  text-transform: none;
-  margin:0;
+  color: #FFFFFF;
 }
