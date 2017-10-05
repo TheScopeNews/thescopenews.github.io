@@ -1,6 +1,5 @@
 html{
   font-family: Helvetica;
-  margin:0;
 }
 
 div.titleContainer{
@@ -13,12 +12,14 @@ div.titleContainer{
   border-top-style: solid;
   border-top-color: #004ba0;
   border-top-width: 10px;
+  margin:0;
 }
 
 div.titleContainer h1{
   color: #ffffff;
   font-weight: 100;
   width: 80%;
+  margin:0;
 }
 
 div.navBar{
@@ -33,15 +34,15 @@ div.navBar a{
   display: block;
   list-style-type: none;
   padding: 0px;
-  margin: 0px;
+  margin: 0;
   width: 25%;
 }
 
 div.navBar a p{
-  margin: 10px;
   color: #ffffff;
   font-style: normal;
   font-family: Helvetica;
   text-decoration: none;
   text-transform: none;
+  margin:0;
 }
