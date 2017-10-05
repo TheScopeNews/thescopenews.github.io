@@ -5,12 +5,11 @@ div.titleContainer{
   background-color: #1976d2;
   width: 100%;
   padding: 0px 0px 5px 20px;
-  margin-top: 0px;
   text-align: left;
   border-top-style: solid;
-  border-top-color: #004ba0;
-  border-top-width: 10px;
-  margin: 0px;
+  border-bottom-color: #004ba0;
+  border-bottom-width: 10px;
+  margin: 0;
 }
 
 div.titleContainer h1{
@@ -24,7 +23,7 @@ div.navBar{
   background-color: #1976d2;
   color: #1976d2;
   text-decoration: none;
-  margin: 0px
+  margin: 0;
 }
 
 div.navBar a{
