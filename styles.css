@@ -1,9 +1,6 @@
 html{
   font-family: Helvetica;
-}
-
-* {
-    margin:0;
+  margin:0;
 }
 
 div.titleContainer{
@@ -16,7 +13,7 @@ div.titleContainer{
   border-top-style: solid;
   border-top-color: #004ba0;
   border-top-width: 10px;
-  margin: 0;
+  margin: 20px;
 }
 
 div.titleContainer h1{
