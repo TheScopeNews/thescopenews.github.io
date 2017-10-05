@@ -9,7 +9,7 @@ div.titleContainer{
   width: 100%;
   padding: 0px 0px 5px 20px;
   text-align: left;
-  border-top-style: solid;
+  border-bottom-style: solid;
   border-bottom-color: #004ba0;
   border-bottom-width: 10px;
   margin: 0;
