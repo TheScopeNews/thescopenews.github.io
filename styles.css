@@ -57,6 +57,7 @@ div.navBar a p{
 div.mainText{
 	color: #FFFFFF;
 	padding: 20px;
+  text-align: justify;
 }
 
 div.pdfEmbed{
