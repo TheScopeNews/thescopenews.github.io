@@ -7,12 +7,13 @@ html{
 /*overrides everything*/
 * {
   margin:0;
+  text-decoration:none;
 }
 
 /*links*/
 a{
   color: #87ceff;
-  text-decoration: none
+  text-decoration: none;
 }
 
 /*titlebar*/
@@ -40,7 +41,7 @@ div.navBar{
 a.navButton{
   float: left;
   width: 5%;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 /*navbutton hover*/
