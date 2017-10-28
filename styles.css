@@ -37,6 +37,7 @@ div.navBar{
   float: center;
   color: #1976d2;
   text-decoration: none;
+  text-align: center;
 }
 
 div.navBar a{
