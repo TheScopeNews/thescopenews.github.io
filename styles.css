@@ -1,70 +1,72 @@
+/*global*/
 html{
   font-family: Helvetica;
   background-color:#333333;
 }
 
+/*overrides everything*/
 * {
   margin:0;
 }
 
-abbr{
-  text-decoration: none;
-}
-
+/*links*/
 a{
   color: #87ceff;
   text-decoration: none
 }
 
+/*titlebar*/
 div.titleContainer{
-  font-family: Helvetica;
   background-color: #1976d2;
-  padding: 20px 20px 40px 40px;
+  padding: 15px 0px 40px 0px;
   text-align: left;
   border-top-style: solid;
   border-top-color: #004ba0;
   border-top-width: 10px;
-  margin:0;
   box-shadow: 0px 0px 50px 10px #292929;
   color: #FFFFFF;
-  font-weight: 100;
   width: auto;
 }
 
+/*navbar and buttons*/
 div.navBar{
-  margin-top: 10px;
-  width: 100%;
+  padding-top: 10px;
   float: center;
   color: #1976d2;
-  text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 
-div.navBar a{
+/*just navbuttons*/
+a.navButton{
   float: left;
-  width: 10%;
-  text-decoration: none;
+  width: 5%;
+  color: #FFFFFF
 }
 
-div.navBar a:hover{
+/*navbutton hover*/
+a.navButton:hover{
   text-decoration: underline;
   text-decoration-color: #FFFFFF;
 }
 
-div.navBar a p{
-  color: #FFFFFF;
-}
-
+/*body*/
 div.mainText{
 	color: #FFFFFF;
 	padding: 20px;
   text-align: justify;
 }
 
+/*pdf*/
 div.pdfEmbed{
   font-size: 20px;
   text-align: center;
   align-self: center;
   align-content: center;
   align-items: center;
+}
+
+/*title img*/
+img.titleImage{
+  padding-right:10px;
+  padding-left: 20px;
 }
