@@ -7,6 +7,15 @@ html{
   margin:0;
 }
 
+abbr{
+  text-decoration: none;
+}
+
+a{
+  color: #87ceff;
+  text-decoration: none
+}
+
 div.titleContainer{
   font-family: Helvetica;
   background-color: #1976d2;
@@ -23,7 +32,7 @@ div.titleContainer{
 }
 
 div.navBar{
-  margin-top: 10px; 
+  margin-top: 10px;
   width: 100%;
   float: center;
   color: #1976d2;
@@ -48,4 +57,12 @@ div.navBar a p{
 div.mainText{
 	color: #FFFFFF;
 	padding: 20px;
+}
+
+div.pdfEmbed{
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
 }
