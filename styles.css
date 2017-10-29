@@ -71,3 +71,7 @@ img.titleImage{
   padding-right:10px;
   padding-left: 20px;
 }
+
+p.currentPage{
+  text-decoration: underline;
+}
