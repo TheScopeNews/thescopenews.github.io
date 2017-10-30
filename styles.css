@@ -26,7 +26,8 @@ div.titleContainer{
   border-top-width: 10px;
   box-shadow: 0px 0px 50px 10px #292929;
   color: #FFFFFF;
-  width: auto;
+  width: 100%;
+  position: fixed;
 }
 
 /*navbar and buttons*/
