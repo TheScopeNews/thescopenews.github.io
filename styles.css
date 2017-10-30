@@ -34,14 +34,14 @@ div.navBar{
   padding-top: 10px;
   float: center;
   color: #1976d2;
-  text-align: center;
 }
 
 /*just navbuttons*/
 a.navButton{
   float: left;
-  width: 10%;
+  width: 7.5%;
   color: #FFFFFF;
+
 }
 
 /*navbutton hover*/
@@ -70,6 +70,7 @@ div.pdfEmbed{
 img.titleImage{
   padding-right:10px;
   padding-left: 20px;
+  margin-bottom: 20px
 }
 
 p.currentPage{
