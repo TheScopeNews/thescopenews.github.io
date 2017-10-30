@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <title>The Scope Newspaper</title>
+    <title>The Scope</title>
     <link rel="shortcut icon" type="image/png" href="logo.png"/>
     <meta charset="uft-8">
     <meta name="vieport" content="width=device-width">
@@ -13,28 +13,21 @@
       <h1 id="titleText" class="titleText">The Scope</h1>
       <h2 id="titleText2" class="titleText">Balwearie High School Newspaper</h2>
       <div id="navBar" class="navBar">
-        <a href="main.html"     id="homeButton"    class="navButton"   ><p id="buttonText" class="buttonText currentPage"><abbr title="Main page of The Scope">Home</abbr></p></a>
-        <a href="mostRecent.pdf"   id="recentButton"  class="navButton" target="_blank"><p id="buttonText" class="buttonText"><abbr title="The most recenet issue of The Scope newspaper">Latest Issue</abbr></p></a>
-        <a href="archive.html"  id="archiveButton" class="navButton"><p id="buttonText" class="buttonText"><abbr title="An archive of all previous issues of The Scope newpaper">Archive</abbr></p></a>
-      </div>
+        <a href="main.html"     id="homeButton"    class="navButton"   ><p id="buttonText" class="buttonText currentPage"><abbr title="Main Page">Home</abbr></p></a>
+        <a href="editorsPick.pdf"   id="recentButton"  class="navButton" target="_blank"><p id="buttonText" class="buttonText"><abbr title="Editor's Pick">Editor's Pick</abbr></p></a>
+        <a href="articles.html"  id="articlesButton" class="navButton"><p id="buttonText" class="buttonText"><abbr title="The Latest Articles">Articles</abbr></p></a>
     </div>
   </header>
   <body height="100%">
     <div id="mainText" class="mainText bodyText">
       <p>
         Hello. Welcome to the official site for The Scope! <br/>
-        We are an idependent organisation based in Kirkcaldy, Fife. <br/>
-        <br/>
-        Click on the <a href="mostRecent.pdf"><strong><abbr title="The most recent issue of The Scope newspaper">'Latest Issue'</abbr></strong></a> tab to see what's been happening recently.<br/>
-        <br/>
-        Try the Archive tab to see what's been happening less recently. <br/>
-        <br/>
-        You can keep track of the development of the site and submit issues <a href="https://github.com/JoeJ1/TheScopeNewspaperSite/issues"><strong><abbr title="GitHub page for this site's development.">here</abbr></strong></a>. <br/>
+        You can keep track of the development of the site and submit issues <a href="https://github.com/JoeJ1/TheScopeNewspaperSite/issues"><strong><abbr title="GitHub Issues">here</abbr></strong></a>. <br/>
         <br/><br/><br/>
       </p>
       <div class="pdfEmbed">
-        <p>You can read the latest issue here or by clicking the '<a href="mostRecent.pdf"><strong><abbr title="The most recenet issue of The Scope newspaper">Latest Issue</abbr></strong></a>' tab.</p>
-        <iframe src="mostRecent.pdf" width="700" height="400" class="pdfEmebed" id="mainPagePdfEmbed"></iframe>
+        <p>You can read the latest article here or by going to the '<a href="articles.html"><strong><abbr title="Articles">Articles</abbr></strong></a>' tab.</p>
+        <iframe src="latestArticle.pdf" width="700" height="400" class="pdfEmebed" id="mainPagePdfEmbed"></iframe>
       </div>
     </div>
   </body>
