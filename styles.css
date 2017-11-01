@@ -1,6 +1,6 @@
 /*global*/
 html{
-  font-family: Helvetica, Arial, "Liberation Sans", sans-serif; /*To make support other computers with less fonts (e.g. other OS's).*/
+  font-family: Helvetica, Arial, sans-serif;
   background-color:#212121;
 }
 
@@ -24,14 +24,14 @@ div.titleContainer{
   border-top-style: solid;
   border-top-color: #0D47A1;
   border-top-width: 0.7em;
-  box-shadow: 0 0 2em 0.1em #000;
-  color: #FFF;
+  box-shadow: 0 0 2em 0.1em #000000;
+  color: #FFFFFF;
   width: 100%;
   position: fixed;
 }
 
 div.titleContainer h2{
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 /*navbar and buttons*/
@@ -48,8 +48,8 @@ ul.navBar{
 /*just navbuttons*/
 a.navButton{
     float: left;
-    color: #FFF;
-    margin-right: 1em;
+    color: #FFFFFF;
+    margin-right: 3em;
 }
 a.currentPage{
   text-decoration: underline;
@@ -58,13 +58,13 @@ a.currentPage{
 /*navbutton hover*/
 a.navButton:hover{
   text-decoration: underline;
-  text-decoration-color: #FFF;
+  text-decoration-color: #FFFFFF;
 }
 
 /*body*/
 div.mainText{
   font-size: 1em;
-  color: #FFF;
+  color: #FFFFFF;
   padding: 2em;
   text-align: justify;
   padding-top: 11em;
