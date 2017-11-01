@@ -49,7 +49,7 @@ ul.navBar{
 a.navButton{
     float: left;
     color: #FFFFFF;
-    margin-right: 3em;
+    margin-right: 2em;
 }
 a.currentPage{
   text-decoration: underline;
