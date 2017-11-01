@@ -59,15 +59,6 @@ div.mainText{
   padding-top: 160px;
 }
 
-/*pdf*/
-div.pdfEmbed{
-  font-size: 20px;
-  text-align: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
-}
-
 /*title img*/
 img.titleImage{
   padding-right:10px;
