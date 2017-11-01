@@ -1,6 +1,6 @@
 /*global*/
 html{
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, "Liberation Sans", sans-serif; /*To make support other computers with less fonts (e.g. other OS's).*/
   background-color:#212121;
 }
 
@@ -13,7 +13,6 @@ html{
 /*links*/
 a{
   color: #1976d2;
-  text-decoration: none;
 }
 
 /*titlebar*/
@@ -36,13 +35,18 @@ div.navBar{
   float: center;
   color: #1976d2;
 }
+ul.navBar{
+    list-style-type: none;
+}
 
 /*just navbuttons*/
 a.navButton{
-  float: left;
-  width: 7.5%;
-  color: #FFFFFF;
-
+    float: left;
+    color: #FFFFFF;
+    margin-right: 1em;
+}
+a.currentPage{
+  text-decoration: underline;
 }
 
 /*navbutton hover*/
@@ -53,8 +57,8 @@ a.navButton:hover{
 
 /*body*/
 div.mainText{
-	color: #FFFFFF;
-	padding: 20px;
+  color: #FFFFFF;
+  padding: 20px;
   text-align: justify;
   padding-top: 160px;
 }
@@ -64,8 +68,4 @@ img.titleImage{
   padding-right:10px;
   padding-left: 20px;
   margin-bottom: 20px
-}
-
-p.currentPage{
-  text-decoration: underline;
 }
