@@ -30,6 +30,10 @@ div.titleContainer{
   position: fixed;
 }
 
+div.titleContainer h2{
+  font-size: 1em;
+}
+
 /*navbar and buttons*/
 div.navBar{
   font-size: 1em;
