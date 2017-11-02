@@ -18,7 +18,7 @@ div.titleContainer{
   background-color: #1976d2;
   border-top-style: solid;
   border-top-color: #0D47A1;
-  box-shadow: 0 0 20px 5px #000000;
+  box-shadow: 0 0 20px 2px #000000;
   position: fixed;
   width: 100%;
   padding: 2vh 1vw 2vh;
@@ -63,7 +63,7 @@ a.navButton:hover{
 }
 
 div.mainText{
-  font-size: 1.8vh;
+  font-size: 2.5vh;
   padding: 19vh 1.9vw 0;
 }
 
