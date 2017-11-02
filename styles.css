@@ -69,7 +69,7 @@ div.mainText{
 
 
 button.articleBox{
-   padding: 7.5vh 4.25vw 7.5vh;
+   padding: 3.3vw 4.25vw 3.9vw;
 	 display: inline-block;
 	 text-align: left;
    background-size: contain;
@@ -78,4 +78,8 @@ button.articleBox{
 
 div.buttons{
     padding: 19vh 1.9vw 0;
+}
+
+img.articleImage{
+  width: 60%;
 }
