@@ -69,9 +69,12 @@ div.mainText{
 }
 
 
+img.articleImage{
+  width:20em;
+  padding: 2.5vh 2.5vw 2.5vh;
+}
 /*articles*/
 p.articleBoxText{
-  width:%;
   padding:2.5vh 2vw 2.5vh;
   padding-right: 0;
   background-color: #1976d2;
