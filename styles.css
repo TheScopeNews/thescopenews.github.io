@@ -17,6 +17,7 @@ button.articleBox{
 	 margin: 0.75em;
 	 display: inline-block;
 	 text-align: left;
+	 object-fit: contain;
 }
 
 /*links*/
