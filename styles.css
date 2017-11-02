@@ -69,11 +69,12 @@ div.mainText{
 
 
 button.articleBox{
-	 padding: 0;
-	 height: 0;
-	 width: 0;
-	 margin: 0;
+   padding: 7.5vh 4.25vw 7.5vh;
 	 display: inline-block;
 	 text-align: left;
-	 object-fit: contain;
+   background-size: contain;
+}
+
+div.buttons{
+    padding: 19vh 1.9vw 0;
 }
