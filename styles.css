@@ -72,22 +72,25 @@ div.mainText{
 /*articles*/
 p.articleBoxText{
   background-color: #1976d2;
-  width: 20em;
-  padding: 2.5vh 2.5vw 2.5vh;
+  width: 15em;
 
 }
 a.linkBox{
   color: #FFFFFF
 }
 
-img.articleBoxImage{
-  width:20em;
+div.articleBoxImage{
+  background-size: clip;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:15em;
   height:7.5em;
 }
 
 div.articleBox{
-    box-shadow: 0 0 20px 2px #000000;
-    width: 20%;
+    box-shadow: 0 0 20px 5px #000000;
+    width: 15em;
     margin:2.5vh 2.5vw 2.5vh;
 }
 
