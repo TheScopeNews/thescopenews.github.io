@@ -23,7 +23,7 @@ div.titleContainer{
   width: 100%;
   padding: 2vh 1vw 2vh;
   border-top-width: 1vh;
-  height: 12vh;
+  height: 12.5vh;
   font-size: 2vh;
 }
 
@@ -40,18 +40,16 @@ ul.navBar{
 a.navButton{
     float: left;
     color: #FFFFFF;
-}
-
-a.navButton{
     padding-right: 2vw;
+    font-size: 2.5vh;
 }
 
 img.titleImage{
   padding: 0 1vw 4vh;
   padding-left: 0;
   float:left;
-  width:8vh;
-  height:8vh;
+  width:10vh;
+  height:10vh;
 }
 
 a.currentPage{
