@@ -67,14 +67,20 @@ div.mainText{
   padding: 19vh 1.9vw 0;
 }
 
+.articleBox{
+  width: 20%;
+}
 
-button.articleBox{
-   padding: 3.3vw 4.25vw 3.9vw;
-	 display: inline-block;
-	 text-align: left;
-   background-size: contain;
-   background-repeat: no-repeat;
-   border:none;
+.articleBoxImage{
+  width: 100%;
+}
+
+.articleBoxText{
+  text-align: center;
+}
+
+.articleBoxText a{
+  color: #ffffff;
 }
 
 div.buttons{
