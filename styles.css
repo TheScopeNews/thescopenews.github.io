@@ -1,91 +1,76 @@
-/*global*/
 html{
   font-family: Helvetica, Arial, sans-serif;
   background-color:#212121;
+  color: #FFFFFF;
+  text-decoration-color: #FFFFFF;
 }
 
-/*overrides everything*/
-* {
-  margin:0;
+*{
   text-decoration:none;
+  margin:0;
 }
+
+a{
+  color: #1976d2;
+}
+
+div.titleContainer{
+  background-color: #1976d2;
+  border-top-style: solid;
+  border-top-color: #0D47A1;
+  box-shadow: 0 0 20px 5px #000000;
+  position: fixed;
+  width: 100%;
+  padding: 2vh 1vw 2vh;
+  border-top-width: 1vh;
+  height: 12.5vh;
+  font-size: 2vh;
+}
+
+div.navBar{
+  padding-top: 1vh;
+  float: center;
+  color: #1976d2;
+}
+
+ul.navBar{
+    list-style-type: none;
+}
+
+a.navButton{
+    float: left;
+    color: #FFFFFF;
+}
+
+a.navButton{
+    padding-right: 2vw;
+}
+
+img.titleImage{
+  padding: 0 0.75vw 15vh;
+  padding-left: 0;
+}
+
+a.currentPage{
+  text-decoration: underline;
+}
+
+a.navButton:hover{
+  text-decoration: underline;
+}
+
+div.mainText{
+  font-size: 2vh;
+  padding: 20vh 2vw 0;
+}
+
 
 button.articleBox{
-	 padding: 1em; 
+	 padding: 1em;
 	 height: 12em;
 	 width: 21em;
 	 margin: 0.75em;
 	 display: inline-block;
 	 text-align: left;
 	 object-fit: contain;
-}
-
-/*links*/
-a{
-  color: #1976d2;
-}
-
-/*titlebar*/
-div.titleContainer{
-  font-size: 1em;
-  background-color: #1976d2;
-  padding: 1.3em 0 1.3em 0;
-  text-align: left;
-  border-top-style: solid;
-  border-top-color: #0D47A1;
-  border-top-width: 0.7em;
-  box-shadow: 0 0 2em 0.1em #000000;
-  color: #FFFFFF;
-  width: 100%;
-  position: fixed;
-}
-
-div.titleContainer h2{
-  font-size: 1.25em;
-}
-
-/*navbar and buttons*/
-div.navBar{
-  font-size: 1em;
-  padding-top: 0.7em;
-  float: center;
-  color: #1976d2;
-}
-ul.navBar{
-    list-style-type: none;
-}
-
-/*just navbuttons*/
-a.navButton{
-    float: left;
-    color: #FFFFFF;
-    margin-right: 2em;
-}
-a.currentPage{
-  text-decoration: underline;
-}
-
-/*navbutton hover*/
-a.navButton:hover{
-  text-decoration: underline;
-  text-decoration-color: #FFFFFF;
-}
-
-/*body*/
-div.mainText{
-  font-size: 1em;
-  color: #FFFFFF;
-  padding: 2em;
-  padding-top: 11em;
-}
-
-div.buttons{
-  padding-top: 11em;
-}
-
-/*title img*/
-img.titleImage{
-  padding-right:0.5em;
-  padding-left: 0.9em;
-  margin-bottom: 1em;
 }
