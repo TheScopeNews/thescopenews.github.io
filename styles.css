@@ -74,6 +74,7 @@ button.articleBox{
 	 text-align: left;
    background-size: contain;
    background-repeat: no-repeat;
+   border:none;
 }
 
 div.buttons{
