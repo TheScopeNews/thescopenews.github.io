@@ -11,13 +11,13 @@ html{
 }
 
 button.articleBox{
-	 padding: 1em; 
+	 padding: 1em;
 	 height: 12em;
 	 width: 21em;
 	 margin: 0.75em;
 	 display: inline-block;
 	 text-align: left;
-	 object-fit: contain;
+	 background-size: contain;
 }
 
 /*links*/
