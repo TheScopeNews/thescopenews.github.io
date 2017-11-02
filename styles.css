@@ -79,6 +79,10 @@ div.mainText{
   padding-top: 11em;
 }
 
+div.buttons{
+  padding-top: 11em;
+}
+
 /*title img*/
 img.titleImage{
   padding-right:0.5em;
