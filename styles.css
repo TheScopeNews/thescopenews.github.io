@@ -90,14 +90,15 @@ div.articleBoxImage{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width:30vw;
-  height:12.5vh;
+  width:auto;
+  height:17.5vh;
 }
 
 div.articleBox{
     box-shadow: 0 0 20px 2.5px #000000;
-    width: 30vw;
-    margin:5vh 5vw 5vh;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 5vh;
 }
 
 div.buttons{
