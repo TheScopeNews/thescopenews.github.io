@@ -65,7 +65,7 @@ a.navButton:hover{
 /*main page*/
 div.mainText{
   font-size: 2.5vh;
-  padding: 19vh 1.9vw 5vh;
+  padding: 20vh 2vw 5vh;
 }
 
 
@@ -99,5 +99,5 @@ div.articleBox{
 }
 
 div.buttons{
-    padding-top: 19vh;
+    padding-top: 20vh;
 }
