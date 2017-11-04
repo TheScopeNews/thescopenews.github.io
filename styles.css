@@ -74,16 +74,20 @@ img.articleImage{
   padding: 2.5vh 2.5vw 2.5vh;
 }
 /*articles*/
-p.articleBoxText{
-  padding:2vh 2vw 2vh;
-  padding-right: 0;
-  height:4vh;
-  background-color: #1976d2;
-  font-size: 1.75vh;
+div.buttons{
+    padding-top: 20vh;
 }
 
 a.linkBox{
   color: #FFFFFF;
+}
+
+div.articleBox{
+    box-shadow: 0 0 20px 2.5px #000000;
+    width:75vw;
+    height: 30vh;
+    margin: 0 auto;
+    margin-top: 5vh;
 }
 
 div.articleBoxImage{
@@ -91,17 +95,14 @@ div.articleBoxImage{
   background-position: center;
   background-repeat: no-repeat;
   width:auto;
-  height:25vh;
+  height:20vh;
+  max-width: none;
 }
 
-div.articleBox{
-    box-shadow: 0 0 20px 2.5px #000000;
-    width: 60vw;
-    height: 32.5vh;
-    margin: 0 auto;
-    margin-top: 5vh;
-}
-
-div.buttons{
-    padding-top: 20vh;
+p.articleBoxText{
+  width:70vw;
+  padding:2.5vh 2.5vw 2.5vh;
+  height:5vh;
+  background-color: #1976d2;
+  font-size: 1.75vh;
 }
