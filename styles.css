@@ -91,12 +91,13 @@ div.articleBoxImage{
   background-position: center;
   background-repeat: no-repeat;
   width:auto;
-  height:17.5vh;
+  height:25vh;
 }
 
 div.articleBox{
     box-shadow: 0 0 20px 2.5px #000000;
     width: 60vw;
+    height: 32.5vh;
     margin: 0 auto;
     margin-top: 5vh;
 }
