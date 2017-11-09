@@ -1,6 +1,6 @@
 html{
   font-family: Helvetica, Arial, sans-serif;
-  background-color:#212121;
+  background-color:#263238;
   color: #FFFFFF;
   text-decoration-color: #FFFFFF;
 }
@@ -16,9 +16,9 @@ a{
 
 /*header*/
 div.titleContainer{
-  background-color: #1976d2;
+  background-color: #D32F2F;
   border-top-style: solid;
-  border-top-color: #0D47A1;
+  border-top-color: #B71C1C;
   box-shadow: 0 0 20px 2px #000000;
   position: fixed;
   width: 100%;
@@ -104,7 +104,7 @@ div.articleBoxImage{
 }
 
 p.articleBoxText{
-  width:70vw;
+  width:auto;
   padding:2.5vh 2.5vw 2.5vh;
   height:5vh;
   background-color: #1976d2;
