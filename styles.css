@@ -11,14 +11,14 @@ html{
 }
 
 a{
-  color: #1976d2;
+  color: #1976D2;
 }
 
 /*header*/
 div.titleContainer{
-  background-color: #D32F2F;
+  background-color: #E53935;
   border-top-style: solid;
-  border-top-color: #B71C1C;
+  border-top-color: #C62828;
   box-shadow: 0 0 20px 2px #000000;
   position: fixed;
   width: 100%;
@@ -31,7 +31,6 @@ div.titleContainer{
 div.navBar{
   padding-top: 1vh;
   float: center;
-  color: #1976d2;
 }
 
 ul.navBar{
@@ -107,6 +106,6 @@ p.articleBoxText{
   width:auto;
   padding:2.5vh 2.5vw 2.5vh;
   height:5vh;
-  background-color: #1976d2;
+  background-color: #1976D2;
   font-size: 1.75vh;
 }
