@@ -16,9 +16,9 @@ a{
 
 /*header*/
 div.titleContainer{
-  background-color: #E53935;
+  background-color: #ED1C24;
   border-top-style: solid;
-  border-top-color: #C62828;
+  border-top-color: #B71C1C;
   box-shadow: 0 0 20px 2px #000000;
   position: fixed;
   width: 100%;
@@ -106,6 +106,6 @@ p.articleBoxText{
   width:auto;
   padding:2.5vh 2.5vw 2.5vh;
   height:5vh;
-  background-color: #1976D2;
+  background-color: #3F60B5;
   font-size: 1.75vh;
 }
