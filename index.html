@@ -8,26 +8,17 @@
     <meta name="keywords" content="balwearie, newspaper, scope, the scope, news">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="theme-color" content="#B71C1C">
+    <script src="jquery.js"></script>
+	  <script>
+	  $(function(){
+      $("#includedContent").load("https://raw.githubusercontent.com/TheScopeNews/thescopenews.github.io/test/header.html"); 
+    });
+	  </script>
   </head>
 
   <body>
     <header>
-      <div id="titleContainer" class="titleContainer">
-        <!-- Title Bar -->
-        <img id="titleImage" class="titleImage" alt="Logo"src="logo.svg" onerror="this.src='logo.png'">
-        <h1 id="titleText" class="titleText">The Scope</h1>
-        <h2 id="titleText2" class="titleText">Balwearie High School News</h2>
-
-        <!-- Navigation Bar -->
-        <div id="navBar" class="navBar">
-            <ul class="navBar">
-                <li><a href="index.html" id="homeButton" class="navButton currentPage"><abbr title="Main Page">Home</abbr></a></li>
-                <li><a href="latest.html" id="recentButton" class="navButton"><abbr title="Latest Article">Latest Article</abbr></a></li>
-                <li><a href="articles.html" id="articlesButton" class="navButton"><abbr title="The Latest Articles">All Articles</abbr></a></li>
-            </ul>
-        </div>
-
-      </div>
+      <div id="includedContent"></div>
     </header>
 
     <div id="mainText" class="mainText bodyText">
