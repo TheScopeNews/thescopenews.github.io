@@ -1,4 +1,4 @@
-Mr McNeil Article.
+#Mr McNeil Article.
 
 When I was asked to interview Mr McNeil, I was slightly sceptical about doing so. I’d heard rumours that he was very strict and wasn’t the easiest person to get along with. Nothing could be further from the truth…
 
